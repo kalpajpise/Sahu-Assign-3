@@ -178,8 +178,8 @@ body {
 }
 
 .boat__img {
-    height: 14rem;
-    width: 18rem;
+    height: 12rem;
+    width: 14rem;
     background-color: red;
 }
 
@@ -237,6 +237,11 @@ body {
     background-color:#fff;
 }
 
+.footer__container{
+  border-right:1px solid #e4ebdd;
+  border-left:1px solid #e4ebdd;
+}
+
 .logo__row{
     background-color:lightgray;
     padding:4rem;
@@ -244,14 +249,27 @@ body {
     background-blend-mode:lighten;
 }
 
+.logo__col{
+  padding:0 2rem;
+  margin-bottom:2rem;
+}
+
 .footer__link__row{
-    margin-top:2rem;
+    margin-right:1rem;
+}
+
+.link__col{
+  margin:1rem
+}
+
+.google__play__btn{
+  margin-right:5px;
 }
 
 .apple__btn{
     background-color:#5fc9f8;
     color:#fff;
-    /* font-weight:bold; */
+    /* margin-left:12px; */
 }
 
 .apple__btn:hover{
@@ -272,6 +290,35 @@ body {
 
 .spot__span{
     color:#000;
+}
+
+@media (max-width:480px){
+  .firstheading {
+      padding:10px 10px;
+  }
+
+  .firstheading__firstele a{
+      margin-left: 2px;
+      font-size:12px;
+  }
+
+  .firstheading__secondele a{
+      margin-left: 4px;
+      font-size:12px;
+  }
+
+  .tourcol{
+    margin-left:5px;
+    padding: 8rem 2rem;
+  }
+
+  .boatsellcol{
+    margin-left:2px;
+  }
+
+  .brand__col{
+    margin-left:0px;
+  }
 }
 
 @media (max-width:960px) {
